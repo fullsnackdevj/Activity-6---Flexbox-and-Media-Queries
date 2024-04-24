@@ -1,11 +1,16 @@
 .flex-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: beige;
   padding: 30px;
   gap: 5px;
 }
 
 .flex-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #fff;
   background-color: black;
   height: 150px;
